@@ -55,6 +55,7 @@ mod_model_predictions_ui <- function(id) {
           ),
           fluidRow(
             align = 'center',
+            style="margin-bottom:1px",
             actionButton("predict","Predict",icon("chart-gantt")),
             actionButton("reset","Reset", icon("rotate-right"))
           )
