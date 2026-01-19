@@ -1,0 +1,36 @@
+Package: SPECTCTCalculator
+Title: Predicting results of hybrid imaging in primary hyperparathyroidism using machine learning
+Version: 0.0.0.9000
+Authors@R: 
+    person("Jacek", "Podlewski", , "podlewski.jacek@gmail.com", role = c("aut", "cre"))
+Description: The package calculates predicted probability of a positive
+    SPECT-CT scintigraphy result based on clinical parameters of patient
+    provided as inputs. The predictive models are based on Drynda, A.,
+    Podlewski, J., Kucharczyk, K., Sokołowski, G., Sowa-Staszczak, A.,
+    Hubalewska-Dydejczyk, A. and Trofimiuk- Müldner, M., 2025, 'Evaluation
+    of multiple machine learning models predicting the results of hybrid
+    imaging in primary hyperparathyroidism', Nuclear Medicine Review, 
+	vol. 28, pp. 47–54, doi:10.5603/nmr.105377
+License: MIT + file LICENSE
+Imports: 
+    config,
+    golem,
+    shiny,
+    tidyr,
+    shinyjs,
+    shinyBS,
+    workflows,
+    recipes,
+    vip,
+    DALEX,
+    iBreakDown,
+    pkgload,
+	ggplot2
+Suggests: 
+    spelling,
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Encoding: UTF-8
+Language: en-US
+LazyData: true
+RoxygenNote: 7.3.2
