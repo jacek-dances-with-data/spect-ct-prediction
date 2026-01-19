@@ -14,6 +14,7 @@ mod_model_predictions_ui <- function(id) {
   ns <- NS(id)
   tagList(
     tags$div(
+      style="height:95%",
       sidebarLayout(
         sidebarPanel(
           sliderInput(
