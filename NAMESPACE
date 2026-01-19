@@ -2,6 +2,7 @@
 
 export(run_app)
 import(ggplot2)
+import(glmnet)
 import(recipes)
 import(shiny)
 import(workflows)

@@ -25,7 +25,8 @@ Imports:
     DALEX,
     iBreakDown,
     pkgload,
-	ggplot2
+	ggplot2,
+	glmnet
 Suggests: 
     spelling,
     testthat (>= 3.0.0)

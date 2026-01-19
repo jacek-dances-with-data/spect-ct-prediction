@@ -5,6 +5,7 @@
 #' @import workflows
 #' @import recipes
 #' @import ggplot2
+#' @import glmnet
 
 library(tidyr)
 
