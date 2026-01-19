@@ -25,9 +25,9 @@ title_ui <- function(id) {
 footer_ui <- function(id) {
   ns <- NS(id)
   tagList(
-    hr(style="margin-top:1px"),
+    hr(style="margin-top:0px"),
     div(
-      style="margin-top:0px; font-size:12px",
+      style="margin-top:0px; font-size:11px",
       align="right",
       tagList("Prediction explanations powered by DALEX: ", a("https://dalex.drwhy.ai/", href="https://dalex.drwhy.ai/"))
     )
