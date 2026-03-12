@@ -1,35 +1,42 @@
 Package: SPECTCTCalculator
-Title: Predicting results of hybrid imaging in primary hyperparathyroidism using machine learning
-Version: 0.0.0.9000
+Title: Predicting results of hybrid imaging in primary hyperparathyroidism
+    using machine learning
+Version: 0.0.0.91
 Authors@R: 
     person("Jacek", "Podlewski", , "podlewski.jacek@gmail.com", role = c("aut", "cre"))
 Description: The package calculates predicted probability of a positive
     SPECT-CT scintigraphy result based on clinical parameters of patient
-    provided as inputs. The predictive models are based on Drynda, A.,
+    provided as inputs.  The predictive models are based on Drynda, A.,
     Podlewski, J., Kucharczyk, K., Sokołowski, G., Sowa-Staszczak, A.,
     Hubalewska-Dydejczyk, A. and Trofimiuk- Müldner, M., 2025, 'Evaluation
     of multiple machine learning models predicting the results of hybrid
-    imaging in primary hyperparathyroidism', Nuclear Medicine Review, 
-	vol. 28, pp. 47–54, doi:10.5603/nmr.105377
+    imaging in primary hyperparathyroidism', Nuclear Medicine Review, vol.
+    28, pp. 47–54, doi:10.5603/nmr.105377
 License: MIT + file LICENSE
+URL: 
+    https://github.com/jacek-dances-with-data/spect-ct-prediction/blob/main/R/fct_model_predictions.R
+BugReports: 
+    https://github.com/jacek-dances-with-data/spect-ct-prediction/blob/main/R/fct_model_predictions.R/issues
 Imports: 
     config,
-    golem,
-    shiny,
-    tidyr,
-    shinyjs,
-    shinyBS,
-    workflows,
-    recipes,
-    vip,
     DALEX,
+    ggplot2,
+    glmnet,
+    golem,
     iBreakDown,
-    pkgload,
-	ggplot2,
-	glmnet
+    recipes,
+    shiny,
+    shinyBS,
+    shinyjs,
+    tidyr,
+    workflows
 Suggests: 
+    knitr,
+    rmarkdown,
     spelling,
     testthat (>= 3.0.0)
+VignetteBuilder: 
+    knitr
 Config/testthat/edition: 3
 Encoding: UTF-8
 Language: en-US

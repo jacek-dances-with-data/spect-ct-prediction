@@ -18,7 +18,6 @@ golem::add_module(name = "app_info", with_test=FALSE)
 ## Creates fct_* and utils_*
 golem::add_fct("model_predictions", with_test = TRUE)
 
-## Tests ----
 ## Add one line by test you want to create
 usethis::use_test("app")
 

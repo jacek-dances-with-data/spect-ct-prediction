@@ -1,0 +1,42 @@
+[
+	{
+		"name":"PTH",
+        "displayName":"PTH [pg/mL]",
+        "min":0,
+        "max":500,
+        "default":200,
+		"step":1
+	},
+	{
+		"name":"Ca",
+        "displayName":"Calcium [mmol/L]",
+        "min":1.0,
+        "max":4.0,
+        "default":2.0,
+		"step":0.1
+	},
+	{
+		"name":"Pi",
+        "displayName":"Pi [mmol/L]",
+        "min":0.1,
+        "max":1.6,
+        "default":1.0,
+		"step":0.1
+	},
+	{
+		"name":"vit_D",
+        "displayName":"Vitamin D [ng/mL]",
+        "min":0.0,
+        "max":80,
+        "default":30,
+		"step":1
+	},
+	{
+		"name":"max_diameter",
+        "displayName":"Max. lesion diameter [cm]",
+        "min":0.0,
+        "max":4.0,
+        "default":0.0,
+		"step":0.05
+	}	
+]

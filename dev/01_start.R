@@ -14,8 +14,8 @@ scintigraphy result based on clinical parameters of patient provided as inputs.
     email = "podlewski.jacek@gmail.com",
     role = c("aut", "cre")
   ),
-  repo_url = NULL, # The URL of the GitHub repo (optional),
-  pkg_version = "0.0.0.9000",
+  repo_url = "https://github.com/jacek-dances-with-data/spect-ct-prediction/blob/main/R/fct_model_predictions.R",
+  pkg_version = "0.0.0.91",
   set_options = TRUE
 )
 

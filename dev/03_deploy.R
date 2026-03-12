@@ -16,7 +16,6 @@ devtools::check()
 devtools::build()
 
 ## Posit ----
-## If you want to deploy on Posit related platforms
 golem::add_positconnect_file()
 
 ## Deploy to Posit Connect
@@ -26,4 +25,3 @@ rsconnect::writeManifest()
 
 #Create renv.lock
 renv::snapshot(type="implicit")
-

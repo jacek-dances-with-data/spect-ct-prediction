@@ -9,7 +9,6 @@ app_ui <- function(request) {
     # Application UI logic
     fluidPage(
       class="model_predictions",
-      style="flex-shrink:1",
       title_ui("app_title"),
       mod_model_predictions_ui("model_predictions"),
       footer_ui("dalex_info")
